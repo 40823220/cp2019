@@ -67,7 +67,7 @@
 <link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>
 
-<!-- for LaTeX equations 暫時不用
+<!-- 啟用 LaTeX equations 編輯 -->
 <script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
 <script type="text/javascript">
 init_mathjax = function() {
@@ -88,7 +88,7 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
--->
+
 <!-- 暫時不用
 <script src="./../cmsimde/static/fengari-web.js"></script>
 <script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
@@ -99,6 +99,11 @@ init_mathjax();
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
 -->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
 
 </head>
 <body>
@@ -138,7 +143,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About機械製圖.html'>About機械製圖</a><li class='has-children'><a href='Chart.html'>Chart</a><ul class='dropdown'><li><a href='w8.html'>w8</a><li><a href='w_9.html'>w_9</a></li>
+                     <li><a href='About機械製圖.html'>About機械製圖</a><li class='has-children'><a href='Chart.html'>Chart</a><ul class='dropdown'><li><a href='w8.html'>w8</a><li><a href='w_9.html'>w_9</a><li><a href='w15.html'>w15</a></li>
                       </ul>
                 </nav>
               </div>
@@ -170,7 +175,8 @@ print("從 $start 累加至 $end 總數為 $sum");
 }</pre>
 <p><br/><br/></p>
 <p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=1cf83d4960f4191f9f3090c13ec06c2d" width="800"></iframe></p>
-<p><iframe height="600" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/for&amp;theme=dark" width="800"></iframe></p><br /> <a href='Chart.html'>Next</a> >> Chart</div>
+<p><iframe height="600" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/for&amp;theme=dark" width="800"></iframe></p>
+<br /> <a href='Chart.html'>Next</a> >> Chart</div>
         
     <!-- footer -->
       <div class="container">
