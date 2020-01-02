@@ -33,4 +33,3 @@ convert(String data){
   } else {
      output.innerHtml = "請輸入數字加上 LB 或 KG!";
   }
-} 
