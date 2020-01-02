@@ -155,15 +155,40 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">w16查驗考試 << <a href='w16查驗考試.html'>Previous</a> <br /><h1>w17考試</h1>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823220&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823220&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823220&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
 <h4>純 Dart 程式</h4>
-<p><button onclick="getDart('weight')">重量</button></p>
+<p><button onclick="getDart('weight-dart')">重量轉換</button></p>
 <h4>Html 程式</h4>
-<p><button onclick="getHtmlDart('weight'_change')">重量轉換</button> <button onclick="getHtmlDart('flag')">國旗</button></p>
+<p><button onclick="getHtmlDart('weight')">重量轉換</button></p>
+<p><button onclick="getHtmlDart('flag')">各國國旗</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823220&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight&amp;theme=dark" width="800"></iframe></p>
-<p><br/>重點筆記 &lt;&lt; <a href="/get_page/w17%E8%80%83%E8%A9%A6/重點筆記.html">Previous</a></p>
-<p><br/>w15 &lt;&lt; <a href="/get_page/w17%E8%80%83%E8%A9%A6/w15.html">Previous</a></p><br />w16查驗考試 << <a href='w16查驗考試.html'>Previous</a> </div>
+<p><br/><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-dart.html?gh_owner=40823220&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight-dart&amp;theme=dark" width="800"></iframe>.</p><br />w16查驗考試 << <a href='w16查驗考試.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
