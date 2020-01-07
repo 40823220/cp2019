@@ -28,11 +28,17 @@
 <v t="leo.20180902120523.14"><vh>重量轉換</vh>
 <v t="leo.20180902120523.15"><vh>重量轉換</vh></v>
 </v>
-<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
+<v t="leo.20180902120523.16"><vh>溫度轉換</vh>
+<v t="leo.20180902120523.17"><vh>溫度轉換</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20180902120523.18"><vh>亂數分組</vh>
+<v t="leo.20180902120523.19"><vh>亂數分組</vh></v>
+</v>
+<v t="leo.20200107152519.1"><vh>各國國旗</vh>
+<v t="leo.20200107152510.1"><vh>各國國旗</vh></v>
+</v>
+<v t="leo.20200107152716.1"><vh>心得</vh>
+<v t="leo.20200107152715.1"><vh>心得</vh></v>
 </v>
 </v>
 </v>
@@ -106,34 +112,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
+<t tx="leo.20180902120523.17"># 溫度轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823220&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/Temp2&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;</t>
 <t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -319,5 +300,9 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200107152510.1"></t>
+<t tx="leo.20200107152519.1"></t>
+<t tx="leo.20200107152715.1"></t>
+<t tx="leo.20200107152716.1"></t>
 </tnodes>
 </leo_file>
