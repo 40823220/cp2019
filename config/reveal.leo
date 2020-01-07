@@ -309,7 +309,16 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200107152715.1"></t>
-<t tx="leo.20200107152716.1"></t>
+<t tx="leo.20200107152715.1"># 心得
+一開始接觸這門課，真心覺得，我學的很辛苦，畢竟是沒碰過的東西，真的好難，剛開始打基本指令都還能打錯，不懂為甚麼要這麼做，但到了現在，都已經過了一半的學期了，我終於還是學會了一些東西，老師也很認真地指導，順著老師的影片一步一步走，我有明顯的進步了，並且努力跟上每一個進度，希望能在期末結束前，順利完成這學期的進度，並學會更多基本的知識。</t>
+<t tx="leo.20200107152716.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
 </tnodes>
 </leo_file>
